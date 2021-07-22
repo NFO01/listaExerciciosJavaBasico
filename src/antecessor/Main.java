@@ -20,6 +20,8 @@ public class Main {
       numero = Integer.parseInt(JOptionPane.showInputDialog("Por favor, informe um número inteiro"));
       JOptionPane.showMessageDialog(null, "Antecessor é: "+(numero-1) + 
               "\n Número digitado foi: "+ numero + "\n Número sucessor é: "+ (numero+1));
+      
+      JOptionPane.showMessageDialog(null, "TESTE DE ALTERAÇÕES PARA COMMIT!");
     }
-    
+   
 }
